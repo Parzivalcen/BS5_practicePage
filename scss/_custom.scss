@@ -1,0 +1,14 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+.bg-nav {
+  background-color: black;
+  padding: 2rem !important;
+  li {
+    padding: 0 0.7rem;
+
+    a {
+      color: $white !important;
+      text-transform: capitalize;
+      font-weight: 600;
+    }
+  }
+}
